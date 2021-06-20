@@ -54,7 +54,7 @@ export const getListCollections = async () => {
       "/marketing/collections?provinceId=1&tag=home"
     );
     const formatData = [];
-    await result.data.collections.map((item) =>
+    result.data.collections.map((item) =>
       formatData.push({
         avatar: item.avatar,
         id: item.id,
