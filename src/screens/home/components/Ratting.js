@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, SafeAreaView, View, Image } from "react-native";
+import { StyleSheet, Text, View, Image } from "react-native";
 import SectionLabel from "../components/SectionLabel";
 import { Rating } from "react-native-ratings";
 

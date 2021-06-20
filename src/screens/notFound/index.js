@@ -3,7 +3,6 @@ import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import { router } from "../../constanst";
 
 function PageNotFound(props) {
-  console.log(props);
   const { navigation } = props;
   return (
     <View style={styles.wrap}>

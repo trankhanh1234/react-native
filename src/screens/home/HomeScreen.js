@@ -1,13 +1,6 @@
-import React, { useContext } from "react";
-import {
-  StyleSheet,
-  SafeAreaView,
-  View,
-  ScrollView,
-  SectionList,
-  StatusBar,
-} from "react-native";
-import { HomeProvider, store } from "./reducers";
+import React from "react";
+import { StyleSheet, SafeAreaView, SectionList } from "react-native";
+import { HomeProvider } from "./reducers";
 import ArticleSlider from "../home/components/ArticleSlider";
 import HomeHeader from "../home/components/HomeHeader";
 import CategoryList from "../home/components/CategoryList";
@@ -18,8 +11,6 @@ import Ratting from "../home/components/Ratting";
 import Offer from "../home/components/Offer";
 
 function HomeScreen(props) {
-  console.log(props);
-
   return (
     <HomeProvider>
       <SafeAreaView style={styles.container}>

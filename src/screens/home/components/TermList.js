@@ -1,5 +1,5 @@
 import React from "react";
-import { FlatList, StyleSheet, TouchableOpacity, View } from "react-native";
+import { FlatList, View } from "react-native";
 import { getListVoucher } from "../services";
 import SectionLabel from "../components/SectionLabel";
 import CategoryItem from "../components/CategoryItem";
